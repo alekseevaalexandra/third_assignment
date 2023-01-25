@@ -1,0 +1,23 @@
+hunger_level = {high: 3_item, low: 1_item}
+nut_allergy = {yes, no}
+money = 10.00
+cost = ""
+
+Feel level of hunger and check nut allergy
+if hunger_level high and no nut_allergy then choose 3_item 
+Insert money 
+if 3_item less than 10.00 
+{display amount of change and dispense it}
+if 3_item more than 10.00 
+{ask to insert more money until the needed price}
+
+
+
+type_of_snacks = {chips, candy}
+slot_for_money = {coin, bill}
+machine_key = {yes, no}
+
+See available type_of_snacks 
+if not all type_of_snacks are present and have machine_key 
+{put missing type_of_snack and empty slot_for_money}
+if all type_of_snack are present then do not open machine and come back next time
